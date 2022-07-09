@@ -64,7 +64,7 @@ const controlServings = function (newServings) {
 };
 
 const welcome = function () {
-  alert('welcome');
+  console.log('welcome');
 };
 
 const controlAddBookmark = function () {
