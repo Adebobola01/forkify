@@ -63,6 +63,10 @@ const controlServings = function (newServings) {
   // recipeView.renderData(model.state.recipe);
 };
 
+const welcome = function () {
+  alert('welcome');
+};
+
 const controlAddBookmark = function () {
   if (!model.state.recipe.bookmarked) model.addBookmarks(model.state.recipe);
   else {
@@ -106,5 +110,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  welcome();
 };
 init();
