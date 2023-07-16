@@ -6,7 +6,7 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.js"
   },
   "author": "Adebobola Oyedunmade",
   "license": "ISC",
